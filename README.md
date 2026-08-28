@@ -1,12 +1,26 @@
-# Hi, I'm Ayobami Ogunlade 👋
+<h1 align="center">Hi 👋, I'm Ayobami Ogunlade</h1>
 
-### Software Engineer • AI & XR Builder • Startup Founder
+<h3 align="center">
+Software Engineer • Startup Founder • AI & XR Builder
+</h3>
 
-I'm a Software Engineer and technology entrepreneur passionate about building products that solve real-world problems.
+<p align="center">
+I build technology products that solve real-world problems.
+</p>
 
-I enjoy taking ideas from concept to working products — designing the architecture, building the backend, developing mobile and web applications, and continuously improving the product based on real-world needs.
+---
 
-Currently, I'm the Founder & CEO of **Behtafood**, where I'm building technology to improve how people discover, order, and experience food while connecting restaurants, customers, and delivery partners through a scalable digital ecosystem.
+## 👨‍💻 About Me
+
+I'm a Software Engineer and technology entrepreneur passionate about turning ideas into scalable products.
+
+My work spans **mobile development, web platforms, backend systems, artificial intelligence, and immersive technologies**.
+
+I'm currently the **Founder & CEO of Behtafood**, where I'm building a technology-driven food marketplace connecting customers, restaurants, and delivery partners.
+
+I enjoy taking products from:
+
+> 💡 **Idea → Strategy → System Design → Development → Launch → Improvement**
 
 ---
 
@@ -14,26 +28,36 @@ Currently, I'm the Founder & CEO of **Behtafood**, where I'm building technology
 
 ### 🍔 Behtafood
 
-A technology-driven food marketplace connecting **customers, restaurants, and delivery partners**.
+A technology-driven food marketplace and delivery ecosystem.
 
-The ecosystem includes:
+The platform brings together:
 
-* 📱 Customer mobile application
-* 🛵 Rider & delivery application
-* 🏪 Restaurant/Vendor dashboard
-* 🧑‍💼 Super Admin platform
-* 💳 Digital wallet and payment infrastructure
-* 📍 Location and map-based services
-* 🔔 Real-time order management
-* 🌦️ Dynamic delivery pricing and weather-aware logistics
+* 📱 Customers
+* 🏪 Restaurants and food vendors
+* 🛵 Delivery partners
+* 🧑‍💼 Business and platform administrators
 
-**Core Technologies:**
+### Core Features
 
-`React Native` • `Expo` • `Node.js` • `Express.js` • `MongoDB` • `Next.js` • `TypeScript`
+* Food discovery and ordering
+* Restaurant management
+* Rider and delivery operations
+* Digital wallet infrastructure
+* Online payments
+* Location and map-based services
+* Real-time order management
+* Dynamic delivery pricing
+* Weather-aware logistics
+
+**Tech Stack**
+
+`React Native` • `Expo` • `Next.js` • `Node.js` • `Express.js` • `TypeScript` • `MongoDB`
+
+🌐 **Website:** https://www.behtafood.com
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies & Tools
 
 ### Languages
 
@@ -45,107 +69,72 @@ The ecosystem includes:
 
 ### Backend
 
-`Node.js` • `Express.js` • `REST APIs` • `JWT Authentication`
+`Node.js` • `Express.js` • `REST APIs` • `JWT`
 
 ### Database & Cloud
 
 `MongoDB` • `MongoDB Atlas` • `Cloudinary` • `Vercel`
 
-### Payments & Services
+### Other Technologies
 
-`Paystack` • `Google Maps APIs` • Third-party APIs
-
-### Emerging Technology
-
-`Artificial Intelligence` • `Extended Reality (XR)` • `Virtual Reality` • `Metaverse`
+`Artificial Intelligence` • `XR` • `Virtual Reality` • `Three.js` • `React Three Fiber`
 
 ---
 
-## 💡 What I Do
+## 🌍 Selected Areas of Work
 
-I'm particularly interested in building products at the intersection of:
+### 🤖 Artificial Intelligence
 
-* 🤖 Artificial Intelligence
-* 📱 Mobile Technology
-* 🌐 Web Platforms
-* 🥽 Extended Reality (XR)
-* 🚀 Startups & Product Development
-* 🌍 Technology for Social Impact
+Exploring practical applications of AI, automation, and intelligent systems.
 
-I believe software engineering is more than writing code.
+### 🥽 XR & Immersive Technology
 
-For me, it's about understanding **problems, data, systems, people, and technology** - then combining them to build something useful.
+Building and experimenting with **Virtual Reality, Extended Reality, 3D experiences, and interactive storytelling**.
+
+### 📱 Mobile & Web Products
+
+Building scalable applications that connect users with real-world services.
+
+### 🚀 Startups & Product Development
+
+I enjoy the full product journey—from identifying a problem to designing, building, testing, launching, and improving a solution.
 
 ---
 
-## 🌟 Selected Projects
+## 🎯 Currently Focused On
+
+* 🤖 Applied Artificial Intelligence
+* 📱 Scalable mobile applications
+* 🚀 Building and growing Behtafood
+* 🌦️ Smart logistics and dynamic pricing
+* 🥽 XR and immersive experiences
+* 🧠 AI-powered products and automation
+
+---
+
+## 🌟 Featured Projects
 
 ### 🍔 Behtafood
 
-A food marketplace and delivery ecosystem designed to connect customers, restaurants, and delivery partners.
+A food marketplace connecting customers, restaurants, and delivery partners through a digital ecosystem.
 
-**Built with:**
-
-React Native • Node.js • Express • MongoDB • Paystack • Cloudinary
+**Mobile • Web • Backend • Payments • Maps • Logistics**
 
 ---
 
 ### 😊 Smile Superheroes
 
-A technology-driven health education and immersive learning initiative exploring storytelling, interactive experiences, and Extended Reality to create engaging educational experiences.
+An immersive technology and health education initiative exploring storytelling, interactive learning, and Extended Reality.
 
-**Focus:**
-
-XR • Virtual Reality • Interactive Learning • Artificial Intelligence
+**XR • Virtual Reality • Interactive Learning**
 
 ---
 
-### 🧪 Other Experiments & Projects
+### 👕
 
-I enjoy experimenting with new technologies and building solutions across:
+AI & 3D Experiences
 
-* Fintech
-* Artificial Intelligence
-* Mobile Applications
-* Web Platforms
-* Developer Tools
-* Immersive Technologies
-
----
-
-## 🎯 Currently Exploring
-
-* 🤖 Applied Artificial Intelligence
-* 🧠 AI-powered products and automation
-* 🌦️ Smart logistics and dynamic pricing systems
-* 📱 Scalable mobile application architecture
-* 🥽 Extended Reality and immersive experiences
-
----
-
-## 📈 My Approach
-
-```text
-Idea
- ↓
-Research
- ↓
-Product Strategy
- ↓
-System Design
- ↓
-Build
- ↓
-Test
- ↓
-Launch
- ↓
-Learn
- ↓
-Improve
-```
-
-I enjoy the entire journey.
+Experiments combining Artificial Intelligence, Three.js, React Three Fiber, and interactive 3D experiences.
 
 ---
 
@@ -153,25 +142,21 @@ I enjoy the entire journey.
 
 I'm always interested in connecting with:
 
-* Founders and builders
-* Software engineers
-* AI and XR enthusiasts
-* Product designers
-* Investors and innovators
-* Potential collaborators
+* 🚀 Founders and builders
+* 💻 Software engineers
+* 🤖 AI enthusiasts
+* 🥽 XR creators
+* 💡 Innovators
+* 🤝 Potential collaborators
 
-📫 **Let's build something meaningful.**
-
----
-
-### ⚡ Fun Fact
-
-I've learned that building technology is not just about having a great idea.
-
-It's about having the resilience to keep building, learning, failing, improving, and trying again.
-
-> **The future is built by people willing to start.**
+<p>
+<a href="https://www.behtafood.com">🌐 Behtafood</a> •
+<a href="https://www.linkedin.com/in/ayobami-ogunlade-7b776714b">LinkedIn</a> •
+<a href="https://github.com/aynerd2">GitHub</a>
+</p>
 
 ---
 
-⭐️ From [Ayobami Ogunlade](https://github.com/aynerd2)
+<p align="center">
+<i>"The future is built by people willing to start."</i>
+</p>
