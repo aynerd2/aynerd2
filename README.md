@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm Ayobami Ogunlade</h1>
+<h1 align="center">Hi, I'm Ayobami Ogunlade</h1>
 
 <h3 align="center">
-Software Engineer • AI/ML Engineer • Startup Founder • XR Builder
+Full-Stack Mobile Developer
 </h3>
 
 <p align="center">
-I build intelligent systems, digital products and technology solutions that solve real-world problems.
+I build mobile applications and the full systems behind them — from interface to backend to deployment with additional depth in AI/ML, security, and immersive technology.
 </p>
 
 <p align="center">
@@ -15,27 +15,34 @@ I build intelligent systems, digital products and technology solutions that solv
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm a Software Engineer, technology entrepreneur, and product builder with a background in **Computer Science and Artificial Intelligence**.
+I'm a Full-Stack Mobile Developer with a background in Computer Science and Artificial Intelligence.
 
-My work sits at the intersection of:
-
-**Software Engineering × Artificial Intelligence × Product Development × XR**
-
-Over the years, I've worked on projects ranging from machine learning models and biometric authentication systems to mobile applications, backend systems, immersive experiences, and startup products.
+I build complete mobile products end to end, from the interface a user touches, through the backend and APIs that power it, to the systems that keep it secure and running. Along the way, I've applied that same end-to-end approach to machine learning models, biometric authentication systems, immersive experiences, and startup products.
 
 I'm currently the **Founder & CEO of Behtafood**, where I'm building a technology-driven food marketplace connecting customers, restaurants, and delivery partners.
 
-I enjoy taking an idea beyond the prototype — from understanding the problem and designing the system to building, deploying, and continuously improving the product.
+I enjoy taking an idea beyond the prototype, from understanding the problem and designing the system to building, deploying, and continuously improving the product.
 
 ---
 
-# 🚀 What I Build
+# What I Build
 
-### 🤖 Artificial Intelligence & Machine Learning
+### Mobile & Full-Stack Product Engineering
 
-I build and experiment with practical AI systems, particularly around:
+* Mobile applications (native & cross-platform)
+* Web platforms
+* Backend APIs
+* Payment systems
+* Authentication systems
+* Location-based applications
+* Real-time systems
+* Business platforms
+
+### Artificial Intelligence & Machine Learning
+
+I build and integrate practical AI systems into mobile and backend products, particularly around:
 
 * Computer Vision
 * Image Classification
@@ -46,20 +53,7 @@ I build and experiment with practical AI systems, particularly around:
 * Model Deployment
 * AI-powered APIs
 
-### 💻 Software & Product Engineering
-
-I build:
-
-* Mobile applications
-* Web platforms
-* Backend APIs
-* Payment systems
-* Authentication systems
-* Location-based applications
-* Real-time systems
-* Business platforms
-
-### 🥽 Extended Reality
+### Extended Reality
 
 I also explore:
 
@@ -71,9 +65,63 @@ I also explore:
 
 ---
 
-# 🧠 AI & Machine Learning Projects
+# Flagship Mobile Project
 
-## 🍃 Banana Leaf Disease Classifier
+## SFMPAS — Secure Fingerprint Multi-factor Payment Authentication System
+
+A full-stack mobile security system combining a native Android application with a secure backend for fingerprint-based payment authentication — pairing AI-based presentation attack detection with cryptography and mobile engineering.
+
+The architecture combines:
+
+* MobileNetV3-Small for fingerprint liveness detection
+* Native Android application
+* Android Keystore
+* ECDSA cryptographic authentication
+* On-device TensorFlow Lite inference
+* Replay-resistant authentication
+* FastAPI backend
+* PostgreSQL
+* Transaction-based authentication policies
+
+The liveness model runs directly on the device and is designed so that **fingerprint images do not leave the device**.
+
+**Technologies:**
+
+`Python` `TensorFlow` `TensorFlow Lite` `MobileNetV3` `Kotlin` `Android` `FastAPI` `PostgreSQL` `Cryptography`
+
+🔗 [View Project](https://github.com/aynerd2/Secure-fingerprint-base-Mobile-payment-authentication-system)
+
+---
+
+# Startup & Product Engineering
+
+## Behtafood
+
+I'm currently building **Behtafood**, a technology-driven food marketplace connecting customers, restaurants, and delivery partners — a full-stack, multi-app product spanning mobile, backend, and admin systems.
+
+The ecosystem includes:
+
+* Customer mobile application
+* Rider & delivery application
+* Restaurant/vendor platform
+* Super Admin platform
+* Digital wallet and payment infrastructure
+* Location and map-based services
+* Order and delivery management
+* Weather-aware logistics
+* Dynamic delivery pricing
+
+**Technologies:**
+
+`React Native` `Expo` `Next.js` `TypeScript` `Node.js` `Express.js` `MongoDB` `Paystack` `Cloudinary`
+
+[Visit Behtafood](https://www.behtafood.com)
+
+---
+
+# AI & Machine Learning Projects
+
+## Banana Leaf Disease Classifier
 
 A deep-learning image classification system that identifies banana leaf diseases using **EfficientNetB0 transfer learning**.
 
@@ -96,35 +144,7 @@ The project also includes a FastAPI integration example for serving predictions.
 
 ---
 
-## 🔐 SFMPAS — Secure Fingerprint Multi-factor Payment Authentication System
-
-A biometric security system combining **AI-based fingerprint presentation attack detection, Android mobile development, cryptography, and secure payment authentication**.
-
-The system was developed as an MSc research project focused on securing mobile payments.
-
-The architecture combines:
-
-* 🧠 MobileNetV3-Small for fingerprint liveness detection
-* 📱 Native Android application
-* 🔐 Android Keystore
-* 🔑 ECDSA cryptographic authentication
-* ⚡ On-device TensorFlow Lite inference
-* 🛡️ Replay-resistant authentication
-* 🌐 FastAPI backend
-* 🗄️ PostgreSQL
-* 💳 Transaction-based authentication policies
-
-The liveness model runs directly on the device and is designed so that **fingerprint images do not leave the device**.
-
-**Technologies:**
-
-`Python` `TensorFlow` `TensorFlow Lite` `MobileNetV3` `Kotlin` `Android` `FastAPI` `PostgreSQL` `Cryptography`
-
-🔗 [View Project](https://github.com/aynerd2/Secure-fingerprint-base-Mobile-payment-authentication-system)
-
----
-
-## 💵 Nigerian Currency Classification API
+## Nigerian Currency Classification API
 
 An early computer-vision project exploring image classification for Nigerian currency notes.
 
@@ -138,35 +158,9 @@ The project demonstrates how a trained machine-learning model can be exposed thr
 
 ---
 
-# 🍔 Startup & Product Engineering
+# XR & Immersive Technology
 
-## Behtafood
-
-I'm currently building **Behtafood**, a technology-driven food marketplace connecting customers, restaurants, and delivery partners.
-
-The ecosystem includes:
-
-* 📱 Customer mobile application
-* 🛵 Rider & delivery application
-* 🏪 Restaurant/vendor platform
-* 🧑‍💼 Super Admin platform
-* 💳 Digital wallet and payment infrastructure
-* 📍 Location and map-based services
-* 🔔 Order and delivery management
-* 🌦️ Weather-aware logistics
-* 📈 Dynamic delivery pricing
-
-**Technologies:**
-
-`React Native` `Expo` `Next.js` `TypeScript` `Node.js` `Express.js` `MongoDB` `Paystack` `Cloudinary`
-
-🌐 [Visit Behtafood](https://www.behtafood.com)
-
----
-
-# 🥽 XR & Immersive Technology
-
-Beyond conventional software engineering, I have worked on immersive technology projects involving:
+Beyond mobile and full-stack engineering, I have worked on immersive technology projects involving:
 
 * Virtual Reality
 * Extended Reality
@@ -175,7 +169,7 @@ Beyond conventional software engineering, I have worked on immersive technology 
 * Immersive education
 * AI + 3D experiences
 
-### 😊 Smile Superheroes
+### Smile Superheroes
 
 An immersive education initiative combining technology, storytelling, and XR to create engaging learning experiences for children.
 
@@ -185,18 +179,18 @@ An immersive education initiative combining technology, storytelling, and XR to 
 
 ---
 
-# 🧪 Other Experiments
+# Other Experiments
 
 I enjoy building experimental projects to explore new technologies and ideas.
 
 Some of my work includes:
 
-* 👕 AI & 3D experiences
-* 🚗 Interactive 3D applications
-* 🎬 Web applications
-* 🤖 AI prototypes
-* 📱 Mobile applications
-* 🌐 Full-stack applications
+* AI & 3D experiences
+* Interactive 3D applications
+* Web applications
+* AI prototypes
+* Mobile applications
+* Full-stack applications
 
 Check out my repositories for more experiments and technical explorations.
 
@@ -207,10 +201,6 @@ Check out my repositories for more experiments and technical explorations.
 ### Languages
 
 `Python` `JavaScript` `TypeScript` `Kotlin`
-
-### AI / Machine Learning
-
-`TensorFlow` `Keras` `TensorFlow Lite` `Computer Vision` `Deep Learning` `Transfer Learning`
 
 ### Frontend & Mobile
 
@@ -224,6 +214,10 @@ Check out my repositories for more experiments and technical explorations.
 
 `MongoDB` `PostgreSQL`
 
+### AI / Machine Learning
+
+`TensorFlow` `Keras` `TensorFlow Lite` `Computer Vision` `Deep Learning` `Transfer Learning`
+
 ### Cloud & Services
 
 `MongoDB Atlas` `Vercel` `Cloudinary` `Paystack`
@@ -234,14 +228,14 @@ Check out my repositories for more experiments and technical explorations.
 
 ---
 
-# 🎯 Current Focus
+# Current Focus
 
-I'm currently focused on building at the intersection of:
+I'm currently focused on building complete mobile products end to end, while continuing to apply AI/ML, security, and immersive technology to real-world problems:
 
 ```text
-Artificial Intelligence
+Mobile & Full-Stack Engineering
         ×
-Software Engineering
+Artificial Intelligence
         ×
 Real-world Products
         ×
@@ -250,17 +244,17 @@ Immersive Technology
 
 I'm particularly interested in:
 
-* 🤖 Applied AI
-* 🧠 AI-powered products
-* 📱 Intelligent mobile applications
-* 🔐 AI & cybersecurity
-* 🌦️ Smart logistics
-* 🥽 XR and immersive experiences
-* 🚀 Startup & product development
+* Intelligent mobile applications
+* Mobile security & authentication
+* Applied AI
+* AI-powered products
+* Smart logistics
+* XR and immersive experiences
+* Startup & product development
 
 ---
 
-# 📌 Philosophy
+# Philosophy
 
 I believe technology is most valuable when it moves beyond experimentation and becomes something people can actually use.
 
@@ -292,11 +286,11 @@ I don't just want to write software.
 
 ---
 
-# 🤝 Let's Connect
+# Let's Connect
 
 I'm always interested in connecting with:
 
-* Software engineers
+* Mobile & software engineers
 * AI/ML researchers and builders
 * Startup founders
 * Product builders
@@ -304,12 +298,12 @@ I'm always interested in connecting with:
 * Technology innovators
 * Potential collaborators
 
-🌐 **Behtafood:** https://www.behtafood.com
+**Behtafood:** https://www.behtafood.com
 
-💻 **GitHub:** https://github.com/aynerd2
+**GitHub:** https://github.com/aynerd2
 
 ---
 
 <p align="center">
-<i>Building technology, one problem at a time.</i>
+<i>Building mobile products, end to end.</i>
 </p>
