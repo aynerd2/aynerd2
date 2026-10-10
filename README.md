@@ -9,7 +9,7 @@ Full-Stack Mobile Developer
 </h3>
 
 <p align="center">
-I build mobile applications and the full systems behind them from interface to backend to deployment with additional depth in AI/ML, security, and immersive technology.
+I build mobile applications and the full systems behind them — from interface to backend to deployment with additional depth in AI/ML, security, and immersive technology.
 </p>
 
 <p align="center">
@@ -102,7 +102,9 @@ flowchart LR
 
 **What I built and measured**
 
-* **Retrieval:** 25,642 passages from 415 sermons in MongoDB Atlas Vector Search, with LLM query rewriting, rank fusion across search phrases and per-source diversity caps.
+* **Retrieval:** 71,090 passages from 1,202 sermons in MongoDB Atlas Vector Search, with LLM query rewriting, rank fusion across search phrases and per-source diversity caps.
+* **Data quality:** found that a repeated announcement sat inside about 3% of passages and polluted search results; built a fuzzy-matching cleaner (tested on five opening and four closing wordings) that strips it from each transcript before indexing.
+* **Routing:** fixed a bug found in live testing where requests for a topic were treated as title lookups, raising routing accuracy on a 53-phrase test set from 77% to 100%.
 * **Grounding:** action plans where every step cites its source, plus a verification pass that drops unsupported steps.
 * **Safety:** crisis-message routing, an honest "no answer" for off-topic questions, and checks that block invented figures and unsupported promises.
 * **Quality:** 170+ automated tests and an acceptance suite that runs before each release.
