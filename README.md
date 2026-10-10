@@ -1,6 +1,10 @@
 <h1 align="center">Hi, I'm Ayobami Ogunlade</h1>
 
 <h3 align="center">
+AI Engineer · LLM Applications, RAG &amp; Computer Vision
+</h3>
+
+<h3 align="center">
 Full-Stack Mobile Developer
 </h3>
 
@@ -9,6 +13,11 @@ I build mobile applications and the full systems behind them — from interface 
 </p>
 
 <p align="center">
+Lately my focus is AI engineering: grounded LLM assistants (RAG), speech-to-text pipelines and on-device vision models, shipped with the evaluation, safety checks and apps around them.
+</p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/ayobami-ogunlade-7b776714b/">LinkedIn</a> •
 <a href="https://www.behtafood.com">Behtafood</a> •
 <a href="https://github.com/aynerd2">GitHub</a>
 </p>
@@ -22,6 +31,8 @@ I'm a Full-Stack Mobile Developer with a background in Computer Science and Arti
 I build complete mobile products end to end, from the interface a user touches, through the backend and APIs that power it, to the systems that keep it secure and running. Along the way, I've applied that same end-to-end approach to machine learning models, biometric authentication systems, immersive experiences, and startup products.
 
 I'm currently the **Founder & CEO of Behtafood**, where I'm building a technology-driven food marketplace connecting customers, restaurants, and delivery partners.
+
+I'm also building **Shepherd**, a retrieval-augmented generation (RAG) assistant that answers only from its source material, and **Olusho**, a multi-tenant platform that turns it into a product. See [Featured AI Project](#featured-ai-project) below.
 
 I enjoy taking an idea beyond the prototype, from understanding the problem and designing the system to building, deploying, and continuously improving the product.
 
@@ -44,6 +55,10 @@ I enjoy taking an idea beyond the prototype, from understanding the problem and 
 
 I build and integrate practical AI systems into mobile and backend products, particularly around:
 
+* LLM applications and retrieval-augmented generation (RAG)
+* Retrieval quality: query rewriting, rank fusion, vector search
+* Evaluation, guardrails and safety for LLM products
+* Speech-to-text pipelines (Whisper)
 * Computer Vision
 * Image Classification
 * Deep Learning
@@ -62,6 +77,62 @@ I also explore:
 * 3D applications
 * Immersive learning
 * Interactive storytelling
+
+---
+
+# Featured AI Project
+
+## Shepherd: a grounded RAG assistant
+
+An assistant that answers questions **only from a library of source documents** (here, a church's sermon recordings) and says so honestly when the library doesn't cover the question. It is live on Telegram and as a Next.js web widget.
+
+```mermaid
+flowchart LR
+  A[Audio] --> B[faster-whisper transcription]
+  B --> C[Clean and chunk]
+  C --> D[Embeddings]
+  D --> E[(MongoDB Atlas Vector Search)]
+  F[Member question] --> G[LLM query rewriting]
+  G --> E
+  E --> H[Rank fusion and diversity cap]
+  H --> I[Claude: grounded answer]
+  I --> J[Output checks]
+  J --> K[Telegram / Web]
+```
+
+**What I built and measured**
+
+* **Retrieval:** 25,642 passages from 415 sermons in MongoDB Atlas Vector Search, with LLM query rewriting, rank fusion across search phrases and per-source diversity caps.
+* **Grounding:** action plans where every step cites its source, plus a verification pass that drops unsupported steps.
+* **Safety:** crisis-message routing, an honest "no answer" for off-topic questions, and checks that block invented figures and unsupported promises.
+* **Quality:** 170+ automated tests and an acceptance suite that runs before each release.
+* **Speech-to-text:** a GPU pipeline (faster-whisper, about 22x real time) that transcribed 1,400+ hours of audio, with resumable jobs and automatic quality and repetition-loop detection.
+* **Efficiency:** cut vector storage 55% by moving embeddings to a compact binary format with identical exact-search results, and added a storage guard that stops a build before the database fills.
+
+**Technologies:**
+
+`Python` `FastAPI` `Anthropic Claude API` `MongoDB Atlas Vector Search` `ChromaDB` `faster-whisper` `Next.js` `Telegram Bot API`
+
+> The source code is in a private repository. I'm happy to walk through the architecture.
+
+<!-- When a public, sanitized version of the Shepherd repository exists, uncomment this line and put in its real URL:
+🔗 [View Project](https://github.com/aynerd2/YOUR-REPO-NAME)
+-->
+
+---
+
+# In Development
+
+## Olusho: a multi-tenant AI platform
+
+Turning Shepherd into a product: each organisation signs up, uploads its recordings and gets its own assistant, grounded only in its own content.
+
+* Tenant isolation enforced in the database (PostgreSQL row-level security), proven by automated isolation tests
+* Provider-agnostic interfaces for LLMs, embeddings, speech-to-text and payments, so no vendor can lock the product in
+* An evaluation suite that gates any prompt, model or retrieval change in CI
+* A written threat model, architecture decision records, and an agentic development workflow (Claude Code subagents, hooks and CI gates)
+
+*Private repository.*
 
 ---
 
@@ -156,6 +227,10 @@ The project demonstrates how a trained machine-learning model can be exposed thr
 
 🔗 [View Project](https://github.com/aynerd2/keras_api)
 
+**Later work:** my M.Sc. thesis extended this into a mobile app that detects counterfeit ₦1,000 and ₦500 notes with **95%+ real-time accuracy**, trained on 5,000+ images.
+
+🔗 [App demo](https://bit.ly/45BmRJC) • [Dissertation](https://bit.ly/4gl8dei)
+
 ---
 
 # XR & Immersive Technology
@@ -214,13 +289,23 @@ Check out my repositories for more experiments and technical explorations.
 
 `MongoDB` `PostgreSQL`
 
+`MongoDB Atlas Vector Search` `ChromaDB`
+
 ### AI / Machine Learning
 
 `TensorFlow` `Keras` `TensorFlow Lite` `Computer Vision` `Deep Learning` `Transfer Learning`
 
+`Anthropic Claude API` `RAG` `Embeddings` `Vector Search` `Prompt Engineering` `LLM Evaluation` `faster-whisper`
+
 ### Cloud & Services
 
 `MongoDB Atlas` `Vercel` `Cloudinary` `Paystack`
+
+`Render`
+
+### Developer Tooling
+
+`Git` `CI/CD` `Claude Code`
 
 ### XR / 3D
 
@@ -251,6 +336,11 @@ I'm particularly interested in:
 * Smart logistics
 * XR and immersive experiences
 * Startup & product development
+* LLM applications and RAG systems
+* AI evaluation, guardrails and safety
+* Multilingual and speech-based AI
+* Multi-tenant AI platforms and cost control
+* Agentic software development
 
 ---
 
@@ -292,11 +382,14 @@ I'm always interested in connecting with:
 
 * Mobile & software engineers
 * AI/ML researchers and builders
+* AI engineers and LLM application builders
 * Startup founders
 * Product builders
 * XR developers
 * Technology innovators
 * Potential collaborators
+
+**LinkedIn:** https://www.linkedin.com/in/ayobami-ogunlade-7b776714b/
 
 **Behtafood:** https://www.behtafood.com
 
@@ -306,4 +399,6 @@ I'm always interested in connecting with:
 
 <p align="center">
 <i>Building mobile products, end to end.</i>
+<br>
+<i>And now AI products too.</i>
 </p>
