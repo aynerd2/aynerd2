@@ -9,7 +9,7 @@ Full-Stack Mobile Developer
 </h3>
 
 <p align="center">
-I build mobile applications and the full systems behind them — from interface to backend to deployment with additional depth in AI/ML, security, and immersive technology.
+I build mobile applications and the full systems behind them from interface to backend to deployment with additional depth in AI/ML, security, and immersive technology.
 </p>
 
 <p align="center">
